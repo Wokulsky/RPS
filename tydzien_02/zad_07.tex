@@ -1,0 +1,13 @@
+Mamy dostep do kul bialych oraz czarnych. Razem jest ich $b+c$, gdzie  $b$ oznacza liczbe bialych kul, $c$ - liczbe czarnych.
+W zadaniu mamy wylosowac jedna kule potem ja odrzucic. Mamy wiec mozliwosc wylosowania kuli albo bialej, albo czarnej.
+Rozwazmy przypadek I, gdzie wylosowalismy kule biala
+  -Prawdopodobieństow wylosowania kuli bialej za pierwszym razem wynosi $b/(c+b)$
+  -Przy kolejnym losowaniu, by wylosować kule biala, prawdopodobienstwo wynosi $(b-1)/(c+b-1)$
+Przypadek II, wylosowano czarna
+  -Prawdobienstow wylosowania za pierwszym razem czarnej $c/(c+b)$
+  -Przy kolejnym losowaniu prawdobodobiestwo wylowowania bialej wynosi $b/(c+b-1)$
+  
+A wiec, prawdopodobienstow wydarzenia wylosowania drugiej kuli jako bialej wynosi:
+\begin{center}
+      $(b/(c+b))*((b-1)/(c+b-1)) + (c/(c+b))*(b/(c+b-1)) = b/(c+b)$
+\end{center}
